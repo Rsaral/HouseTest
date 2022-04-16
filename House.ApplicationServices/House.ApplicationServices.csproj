@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\House.Core\House.Core.csproj" />
+    <ProjectReference Include="..\House.Data\House.Data.csproj" />
+  </ItemGroup>
+
+</Project>
